@@ -1,0 +1,8 @@
+def main():
+    birth_year = int(input("Enter your birth year: "))
+    current_year = 2024  # You can change this to the current year.
+    age = current_year - birth_year
+    print(f"You are {age} years old.")
+
+if __name__ == "__main__":
+    main()
